@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519777333425" stop="1519777353005" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>GoogleTest</name>
+    <test-cases>
+        <test-case start="1519777333431" stop="1519777353000" status="passed">
+            <name>availableRailwayTicketsTest</name>
+            <steps>
+                <step start="1519777344891" stop="1519777346017" status="passed">
+                    <name>validateResults</name>
+                    <title>Trains list validation.</title>
+                    <attachments>
+                        <attachment title="screenshot" source="31064d3c-9b3c-4f74-8b86-1c0b0512c2c0-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="zaleg-pc"/>
+                <label name="thread" value="12892@zaleg-pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

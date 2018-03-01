@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "zaleg-pc",
+    "threads" : [ {
+      "title" : "12892@zaleg-pc.main(1)",
+      "testCases" : [ {
+        "uid" : "9a1b3b9c68e818ab",
+        "name" : "availableRailwayTicketsTest",
+        "title" : "Available railway tickets test",
+        "time" : {
+          "start" : 1519777333431,
+          "stop" : 1519777353000,
+          "duration" : 19569
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

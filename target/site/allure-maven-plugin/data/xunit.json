@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1519777333431,
+    "stop" : 1519777353000,
+    "duration" : 19569
+  },
+  "testSuites" : [ {
+    "uid" : "a719ee23fde9fcbe",
+    "name" : "GoogleTest",
+    "title" : "Google test",
+    "time" : {
+      "start" : 1519777333431,
+      "stop" : 1519777353000,
+      "duration" : 19569
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9a1b3b9c68e818ab",
+      "name" : "availableRailwayTicketsTest",
+      "title" : "Available railway tickets test",
+      "time" : {
+        "start" : 1519777333431,
+        "stop" : 1519777353000,
+        "duration" : 19569
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
