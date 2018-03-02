@@ -23,7 +23,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class GoogleTest {
     private static final String stationFrom = "Rivne";
     private static final String stationTo = "Lviv";
-    private static final int futureDays = 7;
+    private static final int futureDays = 8;
 
     @Rule
     public BrowserWebDriverContainer firefox =
