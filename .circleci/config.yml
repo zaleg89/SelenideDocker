@@ -3,7 +3,8 @@ jobs:
   build:
     working_directory: ~/SelenideDocker
     docker:
-      - image: circleci/openjdk:8-jdk-browsers
+      - image: selenium/standalone-chrome:latest
+      - image: selenium/standalone-firefox:latest
     steps:
       - checkout
       - restore_cache:
