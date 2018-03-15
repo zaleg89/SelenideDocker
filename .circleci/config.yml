@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command:
+          command: |
             sudo -i
           name: Install Docker Compose
           command: |
