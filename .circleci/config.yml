@@ -16,8 +16,8 @@ jobs:
           name: Start container and verify it's working
           command: |
             set -x
-            docker-machine env dev
             docker-compose up -d
+            docker-machine env dev
       - restore_cache:
           key: ~/SelenideDocker-{{ checksum "pom.xml" }}
       - run: mvn clean test site
